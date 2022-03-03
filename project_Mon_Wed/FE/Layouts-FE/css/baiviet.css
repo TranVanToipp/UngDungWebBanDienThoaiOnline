@@ -1,0 +1,71 @@
+.baiviet {
+    margin: auto;
+    width: max-content;
+    padding-top: 40px;
+}
+.baiviet-content {
+    align-items: center;
+}
+.baiviet-items {
+    display: flex;
+    padding: 10px 0;
+    position: relative;
+    cursor: pointer;
+} 
+.baiviet-box-content {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.baiviet-title {
+    max-width: 437px;
+    text-align: center;
+    font-weight: 700;
+}
+.baiviet-description {
+    max-width: 400px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 14px;
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+}
+.baiviet-description::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 3px;
+    background-color: rgb(233,230,230);
+    position: absolute;
+    top: 10px;
+    left: 50%;
+}
+.baiviet-date-box {
+    top: 20px;
+    left: -10px;
+    position: absolute;
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    color: #000;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.baiviet-ngay {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.baiviet-thang {
+    font-size: 11px;
+    font-weight: 700;
+}
+.baiviet-items:hover .baiviet-date-box {
+    background-color: #000;
+    color: #fff;
+}

@@ -1,0 +1,133 @@
+.shop-big-img-box {
+    background-color: #000;
+    width: 100%;
+    height: 366px;
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+}
+.shop-big-img {
+    height: 100%;
+    width: 100%;
+    
+}
+.phukien {
+    padding-top: 50px;
+}
+.phu-kien-header-tit {
+    font-weight: 600;
+    font-size: 19px;
+    color: rgb(27, 27, 27);
+}
+.phu-kien-header-main {
+    display: flex;
+    margin-top: 20px;
+}
+.phu-kien-header-items {
+    margin: 0 10px;
+}
+.phu-kien-header-items-box-img {
+    display: flex;
+    justify-content: center;
+}
+.phu-kien-header-items img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.phu-kien-header-items-des {
+    margin-top: 10px;
+    text-align: center;
+    width: 101px;
+}
+.phu-kien-header-items:nth-child(1) img {
+    background: linear-gradient(90deg,#6ac1ff 0%,#8bfffe 100%);
+}
+.phu-kien-header-items:nth-child(2) img {
+    background: linear-gradient(90deg,#f8d383 0%,#ffbf83 100%);
+}
+.phu-kien-header-items:nth-child(3) img {
+    background: linear-gradient(90deg,#ede574 0%,#e1f5c4 100%);
+}
+.phu-kien-header-items:nth-child(4) img {
+    background: linear-gradient(135deg,#f5ee27 14.65%,#f4b43f 85.36%);
+}
+.phu-kien-header-items:nth-child(5) img {
+    background: linear-gradient(135deg,#f5ee27 14.65%,#8bc34a 85.36%);
+}
+.phu-kien-header-items:nth-child(6) img {
+    background: linear-gradient(135deg,#ffd740 14.65%,#e040bd 85.36%);
+}
+.phu-kien-header-items:nth-child(7) img {
+    background: linear-gradient(90deg,#9ce8fb 0%,#b4ffe4 100%);
+}
+.phu-kien-header-items:nth-child(8) img {
+    background: linear-gradient(143.24deg,#ffd772 14.65%,#f3a618 71.95%);
+}
+.phu-kien-header-items:nth-child(9) img {
+    background: linear-gradient(135deg,#377ef4 14.65%,#cd48e3 85.36%);
+}
+.phu-kien-header2 {
+    margin-top: 20px;
+}
+.phu-kien-header2-main-items {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 114px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 7px;
+}
+.phu-kien-header2-main-items-box-img img{
+    width: 84px;
+    height: 19px;
+}
+.sacduphong,.tainghe,.loa,.thietbimang,.chuotbanphim {
+    padding-top: 50px;
+    background-color: #eaeaea;
+}
+.sac-box-img {
+    display: flex;
+    justify-content: center;
+}
+.sac-box-img img {
+    width: 1080px;
+}
+.sac-main-box {
+    display: flex;
+    justify-content: center;
+}
+.sac-main {
+    width: 1104px;
+    padding: 20px 0;
+}
+.product-selling-box-img a img {
+    width: 252px;
+    height: 252px;
+    object-fit: cover;
+}
+@media  screen and (max-width:740px) {
+    .phu-kien-header-main {
+        flex-wrap: wrap;
+    }
+    .phu-kien-header-items {
+        margin: 10px;
+    }
+    .phu-kien-header-tit {
+        margin-left: 25px;
+        font-size: 17px;
+    }
+    .sac-box-img img {
+        width: 95%;
+    }
+    .sacduphong, .tainghe, .loa, .thietbimang, .chuotbanphim {
+        padding-top: 25px;
+    }
+    .product-selling-box-img a img {
+        width: 180px;
+        height: 180px;
+    }
+}
